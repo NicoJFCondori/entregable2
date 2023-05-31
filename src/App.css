@@ -1,0 +1,8 @@
+.app {
+  background-image: url('../waranont-joe-7K78zXYNFoM-unsplash.jpg');
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}

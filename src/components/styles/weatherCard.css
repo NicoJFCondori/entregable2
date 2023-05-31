@@ -1,0 +1,89 @@
+.weather {
+    background-color: #ffffff99;
+    padding: 2.5em 2em 3.5em;
+    border-radius: 0.8em;
+    width: 100%;
+    max-width: 400px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+}
+
+.weather_header {
+    margin-bottom: 2em;
+}
+
+.weather_title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    background-color:#ffffff80;
+    padding: 0.5em 1em;
+    border-radius: 0.4em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.weather_subtitle{
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.weather_body{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 1em;
+}
+
+.weather_info-title{
+    text-align: center;
+    margin-bottom: 0.8em;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.weather_list{
+    display: grid;
+    gap: 0.7em;
+}
+
+.weather_list-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 0.8;
+}
+
+.weather_list-label{
+    opacity: 0.7;
+}
+
+.weather_list-value{
+    font-weight: bold;
+}
+
+.weather_temp{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0.6em;
+}
+
+.weather_btn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5em 1em;
+    border-radius: 0.7em;
+    background-color: rgb(233, 233, 110);
+    font-size: 1rem;
+    transition: transform 100ms ease;
+}
+
+.weather_btn:hover{
+    filter: brightness(1.1) ;
+    transform: scale(1.05);
+}
