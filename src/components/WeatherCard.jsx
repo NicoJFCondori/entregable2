@@ -13,7 +13,7 @@ const WeatherCard = ({ weather, temp }) => {
 
     <article className="weather">
       <header className="weather_header">
-        <h1 className="weather_title">Wheather App</h1>
+        <h1 className="weather_title">Weather App</h1>
         <h2 className="weather_subtitle">{weather?.name}, {weather?.sys.country}</h2>
       </header>
 
